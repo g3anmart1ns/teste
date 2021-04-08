@@ -14,7 +14,7 @@ yum install -y vim wget curl telnet rsync screen yum-utils lvm2 device-mapper-pe
 </pre>
 
 <pre>
-cat >> /etc/hosts <<EOF
+cat >> /etc/hosts << EOF
 192.0.2.10   kube-ctrl-pl-00.example.com     kube-ctrl-pl-00
 192.0.2.20   kube-worker-00.example.com    kube-worker-00
 192.0.2.21   kube-worker-01.example.com    kube-worker-01
